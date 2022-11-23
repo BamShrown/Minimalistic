@@ -1,0 +1,94 @@
+
+    // Variables
+
+    // Colours
+
+    $primary-color: #09D1DB;
+    $secondary-color: white;
+    $third-color: #069CEB;
+    $fourth-color: #02F2D8;
+    $fifth-color: #525663;
+
+    // Font Sizes
+    $h1: clamp(1rem, 10vw, 2rem);
+    $h2: clamp(1rem, 7vw, 1.9rem);
+    $h3: clamp(1rem, 5vw, 1.8rem);
+    $h4: clamp(0.8rem, 2.5vw, 1.7rem); 
+    $h5: clamp(0.7rem, 2.2vw, 1.5rem); 
+    $p: clamp(0.4rem, 1.5vw, 1rem); 
+    $i: 25px;
+
+    
+    // All
+    
+    * {
+        color: $secondary-color;
+        font-size: 40px;
+        font-family: 'Quicksand', sans-serif;
+        
+        h1 {
+            font-size: $h1;
+        }
+
+        h3 {
+            font-size: $h5;
+            color: $secondary-color;
+        }
+
+        p {
+            font-size: $p;
+            color: $secondary-color;
+        }
+
+        body {
+            background-color: $primary-color;
+        }
+    }
+
+//
+//    NAVBAR
+////////////////////////
+
+.navbar-light .navbar-nav .nav-link {
+    color: whitesmoke;
+    font-size: $h5;
+
+    .navbar-toggler {
+        border: none;
+        padding: 0;
+    }
+}
+
+.navbar-toggler {
+    padding: 2px;
+    border: none;
+    color: white;
+}
+
+.navbar-nav {
+    background-color: $primary-color;
+
+}
+
+.navbar {
+   
+}
+
+
+//
+//    BANNER
+////////////////////////
+
+
+
+// 
+//   PARALLAX DIV
+////////////////////////
+
+
+#parallaxbackgrounddiv {
+    background-image: url(../pictures/KitchenBackground.jpg);
+    background-color: white;
+    height: 200px;
+}
+
